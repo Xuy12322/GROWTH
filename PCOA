@@ -75,7 +75,7 @@ group <- read.delim('amffenzu.txt',  stringsAsFactors = FALSE)
 head(group)
 library(vegan)
 
-#设置随机种子，让结果可重现,为了防止有人质疑对随机种子的选择,随机生成种子
+#设置随机种子
 
 seed <- sample(.Machine$integer.max, size=1)
 
